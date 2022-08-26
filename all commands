@@ -1,0 +1,1720 @@
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /
+$ cd d/
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d
+$ dir
+$MfeDeepRem   Courses  Softwares                    git\ in\ one\ video
+$RECYCLE.BIN  React    System\ Volume\ Information
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d
+$ dir
+$MfeDeepRem   Courses  Softwares
+$RECYCLE.BIN  React    System\ Volume\ Information
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d
+$ git init demo
+Initialized empty Git repository in D:/demo/.git/
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d
+$ ls
+'$MfeDeepRem'/    Courses/   Softwares/                    demo/
+'$RECYCLE.BIN'/   React/    'System Volume Information'/
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d
+$ cd demo/
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls -al
+total 8
+drwxr-xr-x 1 Tushar.Kayshap 197121 0 Aug 26 18:58 ./
+drwxr-xr-x 1 Tushar.Kayshap 197121 0 Aug 26 18:58 ../
+drwxr-xr-x 1 Tushar.Kayshap 197121 0 Aug 26 18:58 .git/
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls
+README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add README.md
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -m "First File"
+[master (root-commit) 1054c69] First File
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls-al
+bash: ls-al: command not found
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ pwd
+/d/demo
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls al
+ls: cannot access 'al': No such file or directory
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls -al
+total 9
+drwxr-xr-x 1 Tushar.Kayshap 197121  0 Aug 26 19:00 ./
+drwxr-xr-x 1 Tushar.Kayshap 197121  0 Aug 26 18:58 ../
+drwxr-xr-x 1 Tushar.Kayshap 197121  0 Aug 26 19:02 .git/
+-rw-r--r-- 1 Tushar.Kayshap 197121 50 Aug 26 19:01 README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ rm -rf .git
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo
+$ la-al
+bash: la-al: command not found
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo
+$ ls -al
+total 5
+drwxr-xr-x 1 Tushar.Kayshap 197121  0 Aug 26 19:03 ./
+drwxr-xr-x 1 Tushar.Kayshap 197121  0 Aug 26 18:58 ../
+-rw-r--r-- 1 Tushar.Kayshap 197121 50 Aug 26 19:01 README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo
+$ ls
+README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo
+$ git init .
+Initialized empty Git repository in D:/demo/.git/
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls -al
+total 9
+drwxr-xr-x 1 Tushar.Kayshap 197121  0 Aug 26 19:04 ./
+drwxr-xr-x 1 Tushar.Kayshap 197121  0 Aug 26 18:58 ../
+drwxr-xr-x 1 Tushar.Kayshap 197121  0 Aug 26 19:04 .git/
+-rw-r--r-- 1 Tushar.Kayshap 197121 50 Aug 26 19:01 README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ LICENSE.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        LICENSE.md
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add .
+warning: in the working copy of 'LICENSE.md', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   LICENSE.md
+        new file:   README.md
+
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit
+[master (root-commit) 4a728a2] Adding both files
+ 2 files changed, 3 insertions(+)
+ create mode 100644 LICENSE.md
+ create mode 100644 README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git log
+commit 4a728a2c9423d007748f1da1edd97b26691ed66f (HEAD -> master)
+Author: Tushar <tushar.kashyap@team.kritikalvision.ai>
+Date:   Fri Aug 26 19:06:46 2022 +0530
+
+    Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git show
+commit 4a728a2c9423d007748f1da1edd97b26691ed66f (HEAD -> master)
+Author: Tushar <tushar.kashyap@team.kritikalvision.ai>
+Date:   Fri Aug 26 19:06:46 2022 +0530
+
+    Adding both files
+
+diff --git a/LICENSE.md b/LICENSE.md
+new file mode 100644
+index 0000000..ae348fc
+--- /dev/null
++++ b/LICENSE.md
+@@ -0,0 +1 @@
++#LICENCE
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..f6d3cfb
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,2 @@
++#DEMO PROJECT README
++this is simple Readme file
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git ls-file
+git: 'ls-file' is not a git command. See 'git --help'.
+
+The most similar command is
+        ls-files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git ls-files
+LICENSE.md
+README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ touch new.file
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls
+LICENSE.md  README.md  new.file
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        new.file
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ rm new.file
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -a
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+Aborting commit due to empty commit message.
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -am "Updating README"
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+[master 970b9d2] Updating README
+ 1 file changed, 1 insertion(+)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git log
+commit 970b9d2d0b03914e5a237a4d8bc55e6a6e69e1bf (HEAD -> master)
+Author: Tushar <tushar.kashyap@team.kritikalvision.ai>
+Date:   Fri Aug 26 19:11:56 2022 +0530
+
+    Updating README
+
+commit 4a728a2c9423d007748f1da1edd97b26691ed66f
+Author: Tushar <tushar.kashyap@team.kritikalvision.ai>
+Date:   Fri Aug 26 19:06:46 2022 +0530
+
+    Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git .add README.md
+git: '.add' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add. README.md
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -a
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+Aborting commit due to empty commit message.
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add .
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git reset HEAD README.md
+Unstaged changes after reset:
+M       README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git checkout -- README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git log
+commit 970b9d2d0b03914e5a237a4d8bc55e6a6e69e1bf (HEAD -> master)
+Author: Tushar <tushar.kashyap@team.kritikalvision.ai>
+Date:   Fri Aug 26 19:11:56 2022 +0530
+
+    Updating README
+
+commit 4a728a2c9423d007748f1da1edd97b26691ed66f
+Author: Tushar <tushar.kashyap@team.kritikalvision.ai>
+Date:   Fri Aug 26 19:06:46 2022 +0530
+
+    Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git help log
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git log --oneline --graph --decorate --all
+* 970b9d2 (HEAD -> master) Updating README
+* 4a728a2 Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git config --global alias.hist "log --oneline --graph --decorate --all"
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git config --global --list
+user.name=Tushar
+user.email=tushar.kashyap@team.kritikalvision.ai
+user.name=Tushar
+diff.tool=p4merge
+difftool.p4merge.path=C:/Program Files/Perforce/p4merge.exe
+difftool.prompt=false
+merge.tool=p4merge
+mergetool.p4merge.path=C:/Program Files/Perforce/p4merge.exe
+mergetool.prompt=false
+alias.hist=log --oneline --graph --decorate --all
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git hist
+* 970b9d2 (HEAD -> master) Updating README
+* 4a728a2 Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git hist -- LICENSE.md
+* 4a728a2 Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ example.txt
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        example.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add example.txt
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -m "adding example file"
+[master dff3277] adding example file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 example.txt
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git mv example.txt demo.txt
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    example.txt -> demo.txt
+
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls
+LICENSE.md  README.md  demo.txt
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -m "Renaming example to demo"
+[master e8c25db] Renaming example to demo
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename example.txt => demo.txt (100%)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git rm demo.txt
+rm 'demo.txt'
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls
+LICENSE.md  README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    demo.txt
+
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -m "deleting demo file"
+[master 389b9ba] deleting demo file
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 demo.txt
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls
+LICENSE.md  README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ touch myfile.txt
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls
+LICENSE.md  README.md  myfile.txt
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ mv LICENSE.md LICENSE.txt
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls -l
+total 2
+-rw-r--r-- 1 Tushar.Kayshap 197121 10 Aug 26 19:06 LICENSE.txt
+-rw-r--r-- 1 Tushar.Kayshap 197121 55 Aug 26 19:19 README.md
+-rw-r--r-- 1 Tushar.Kayshap 197121  0 Aug 26 19:26 myfile.txt
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    LICENSE.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        LICENSE.txt
+        myfile.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add -u
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    LICENSE.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        LICENSE.txt
+        myfile.txt
+
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ gitt add -A
+bash: gitt: command not found
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add -A
+warning: in the working copy of 'LICENSE.txt', CRLF will be replaced by LF the next time Git touches it
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    LICENSE.md -> LICENSE.txt
+        new file:   myfile.txt
+
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -m "rename and add"
+[master 96d506c] rename and add
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ rename LICENSE.md => LICENSE.txt (100%)
+ create mode 100644 myfile.txt
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls -l
+total 2
+-rw-r--r-- 1 Tushar.Kayshap 197121 10 Aug 26 19:06 LICENSE.txt
+-rw-r--r-- 1 Tushar.Kayshap 197121 55 Aug 26 19:19 README.md
+-rw-r--r-- 1 Tushar.Kayshap 197121  0 Aug 26 19:26 myfile.txt
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ rm myfile.txt
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    myfile.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add -u
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    myfile.txt
+
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -m "remove myfile.txt"
+[master 631c335] remove myfile.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 myfile.txt
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls
+LICENSE.txt  README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls -al
+total 10
+drwxr-xr-x 1 Tushar.Kayshap 197121  0 Aug 26 19:28 ./
+drwxr-xr-x 1 Tushar.Kayshap 197121  0 Aug 26 18:58 ../
+drwxr-xr-x 1 Tushar.Kayshap 197121  0 Aug 26 19:29 .git/
+-rw-r--r-- 1 Tushar.Kayshap 197121 10 Aug 26 19:06 LICENSE.txt
+-rw-r--r-- 1 Tushar.Kayshap 197121 55 Aug 26 19:19 README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ application.log
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls
+LICENSE.txt  README.md  application.log
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        application.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ gitignore
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        application.log
+        gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ .gitignore
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ rm gitignore
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -m
+error: switch `m' requires a value
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -m
+error: switch `m' requires a value
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -m"remove"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add .gitignore
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -m"Adding ignore file"
+[master ad736d8] Adding ignore file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 .gitignore
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls
+LICENSE.txt  README.md  application.log
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ rm application.log
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git hist
+* ad736d8 (HEAD -> master) Adding ignore file
+* 631c335 remove myfile.txt
+* 96d506c rename and add
+* 389b9ba deleting demo file
+* e8c25db Renaming example to demo
+* dff3277 adding example file
+* 970b9d2 Updating README
+* 4a728a2 Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git diff 970b9d2 HEAD
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..bf0824e
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1 @@
++*.log
+\ No newline at end of file
+diff --git a/LICENSE.md b/LICENSE.txt
+similarity index 100%
+rename from LICENSE.md
+rename to LICENSE.txt
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git difftool 970b9d2 HEAD
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git diff
+diff --git a/README.md b/README.md
+index 17eb5cd..fcde186 100644
+--- a/README.md
++++ b/README.md
+@@ -1,3 +1,4 @@
+ #DEMO PROJECT README
+ this is simple Readme file
+-#tushar
+\ No newline at end of file
++#tushar
++#kashyap
+\ No newline at end of file
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git diftool
+git: 'diftool' is not a git command. See 'git --help'.
+
+The most similar command is
+        difftool
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git branch
+* master
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git checkout -b updayes
+Switched to a new branch 'updayes'
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (updayes)
+$ git checkout -b updates
+Switched to a new branch 'updates'
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (updates)
+$ notepad++ README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (updates)
+$ git add .
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (updates)
+$ git commit -m " adding udpates from branch"
+[updates ffd879d]  adding udpates from branch
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (updates)
+$ git status
+On branch updates
+nothing to commit, working tree clean
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (updates)
+$ git hist
+* ffd879d (HEAD -> updates)  adding udpates from branch
+* ad736d8 (updayes, master) Adding ignore file
+* 631c335 remove myfile.txt
+* 96d506c rename and add
+* 389b9ba deleting demo file
+* e8c25db Renaming example to demo
+* dff3277 adding example file
+* 970b9d2 Updating README
+* 4a728a2 Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (updates)
+$ git diff updates master
+diff --git a/README.md b/README.md
+index 2643258..17eb5cd 100644
+--- a/README.md
++++ b/README.md
+@@ -1,5 +1,3 @@
+ #DEMO PROJECT README
+ this is simple Readme file
+-#tushar
+-#kashyap
+- some update
+\ No newline at end of file
++#tushar
+\ No newline at end of file
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (updates)
+$ git checkout master
+Switched to branch 'master'
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git hist
+* ffd879d (updates)  adding udpates from branch
+* ad736d8 (HEAD -> master, updayes) Adding ignore file
+* 631c335 remove myfile.txt
+* 96d506c rename and add
+* 389b9ba deleting demo file
+* e8c25db Renaming example to demo
+* dff3277 adding example file
+* 970b9d2 Updating README
+* 4a728a2 Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git merge updates
+Updating ad736d8..ffd879d
+Fast-forward
+ README.md | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git hist
+* ffd879d (HEAD -> master, updates)  adding udpates from branch
+* ad736d8 (updayes) Adding ignore file
+* 631c335 remove myfile.txt
+* 96d506c rename and add
+* 389b9ba deleting demo file
+* e8c25db Renaming example to demo
+* dff3277 adding example file
+* 970b9d2 Updating README
+* 4a728a2 Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git branch -d updates
+Deleted branch updates (was ffd879d).
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git branch
+* master
+  updayes
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git branch -d updayes
+Deleted branch updayes (was ad736d8).
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git branch
+* master
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ hist
+bash: hist: command not found
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git hist
+* ffd879d (HEAD -> master)  adding udpates from branch
+* ad736d8 Adding ignore file
+* 631c335 remove myfile.txt
+* 96d506c rename and add
+* 389b9ba deleting demo file
+* e8c25db Renaming example to demo
+* dff3277 adding example file
+* 970b9d2 Updating README
+* 4a728a2 Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git checkout -b very-bad
+Switched to a new branch 'very-bad'
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (very-bad)
+$ git branch -a
+  master
+* very-bad
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (very-bad)
+$ notepad++ README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (very-bad)
+$ git commit -am "very bad update"
+[very-bad 2cc78e9] very bad update
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (very-bad)
+$ git hist
+* 2cc78e9 (HEAD -> very-bad) very bad update
+* ffd879d (master)  adding udpates from branch
+* ad736d8 Adding ignore file
+* 631c335 remove myfile.txt
+* 96d506c rename and add
+* 389b9ba deleting demo file
+* e8c25db Renaming example to demo
+* dff3277 adding example file
+* 970b9d2 Updating README
+* 4a728a2 Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (very-bad)
+$ git checkout master
+Switched to branch 'master'
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git hist
+* 2cc78e9 (very-bad) very bad update
+* ffd879d (HEAD -> master)  adding udpates from branch
+* ad736d8 Adding ignore file
+* 631c335 remove myfile.txt
+* 96d506c rename and add
+* 389b9ba deleting demo file
+* e8c25db Renaming example to demo
+* dff3277 adding example file
+* 970b9d2 Updating README
+* 4a728a2 Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -am "Causing issue again"
+[master d35d11c] Causing issue again
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git branch -a
+* master
+  very-bad
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git merge very-bad
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master|MERGING)
+$ cat README.md
+#DEMO PROJECT README
+this is simple Readme file
+#tushar
+#kashyap
+<<<<<<< HEAD
+ i hope this is'nt much of a problem
+=======
+ this is bound to cause trouble
+>>>>>>> very-bad
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master|MERGING)
+$ git mergetool
+Merging:
+README.md
+
+Normal merge conflict for 'README.md':
+  {local}: modified file
+  {remote}: modified file
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master|MERGING)
+$ git commit -m "Resolving conflict"
+[master 26c79fa] Resolving conflict
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md.orig
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ .gitignore
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -am "updating ignore to exclude merge file"
+warning: in the working copy of '.gitignore', CRLF will be replaced by LF the next time Git touches it
+[master e6b391d] updating ignore to exclude merge file
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls
+LICENSE.txt  README.md  README.md.orig
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ rm README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add -A
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls
+LICENSE.txt  README.md.orig
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ rm README.md.orig
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ Notepad++ README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls
+LICENSE.txt  README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add .a
+fatal: pathspec '.a' did not match any files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add .
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -m "readme new"
+[master 2a13d64] readme new
+ 1 file changed, 1 insertion(+), 5 deletions(-)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls
+LICENSE.txt  README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git tAG MY TAG
+fatal: cannot handle tAG as a builtin
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git tag mytag
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git tag --list
+mytag
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git hist
+* 2a13d64 (HEAD -> master, tag: mytag) readme new
+* e6b391d updating ignore to exclude merge file
+*   26c79fa Resolving conflict
+|\
+| * 2cc78e9 (very-bad) very bad update
+* | d35d11c Causing issue again
+|/
+* ffd879d  adding udpates from branch
+* ad736d8 Adding ignore file
+* 631c335 remove myfile.txt
+* 96d506c rename and add
+* 389b9ba deleting demo file
+* e8c25db Renaming example to demo
+* dff3277 adding example file
+* 970b9d2 Updating README
+* 4a728a2 Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git tag -d
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git tag -d mytag
+Deleted tag 'mytag' (was 2a13d64)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git tag -a v1.0 -m "Release 1.0"
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git tag --list
+v1.0
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git hist
+* 2a13d64 (HEAD -> master, tag: v1.0) readme new
+* e6b391d updating ignore to exclude merge file
+*   26c79fa Resolving conflict
+|\
+| * 2cc78e9 (very-bad) very bad update
+* | d35d11c Causing issue again
+|/
+* ffd879d  adding udpates from branch
+* ad736d8 Adding ignore file
+* 631c335 remove myfile.txt
+* 96d506c rename and add
+* 389b9ba deleting demo file
+* e8c25db Renaming example to demo
+* dff3277 adding example file
+* 970b9d2 Updating README
+* 4a728a2 Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git show v1.0
+tag v1.0
+Tagger: Tushar <tushar.kashyap@team.kritikalvision.ai>
+Date:   Fri Aug 26 20:05:17 2022 +0530
+
+Release 1.0
+
+commit 2a13d6472ca8a3f97068465f4389e736cc2a9dc8 (HEAD -> master, tag: v1.0)
+Author: Tushar <tushar.kashyap@team.kritikalvision.ai>
+Date:   Fri Aug 26 20:03:14 2022 +0530
+
+    readme new
+
+diff --git a/README.md b/README.md
+index 13c8448..6d887d5 100644
+--- a/README.md
++++ b/README.md
+@@ -1,5 +1 @@
+-#DEMO PROJECT README
+-this is simple Readme file
+-#tushar
+-#kashyap
+- this is bound to cause trouble
++#tushar Kashyap
+\ No newline at end of file
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git stash
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+Saved working directory and index state WIP on master: 2a13d64 readme new
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git stash list
+stash@{0}: WIP on master: 2a13d64 readme new
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ LICENSE.txt
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -am"Updating License file"
+warning: in the working copy of 'LICENSE.txt', CRLF will be replaced by LF the next time Git touches it
+[master 8f33680] Updating License file
+ 1 file changed, 1 insertion(+)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git stash pop
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (ddcd3d6750ed3984702cd08d2f45119bb2098e4d)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git stash list
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -am "updating readme again"
+[master 9822896] updating readme again
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add .
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ notepad++ README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ fut status
+bash: fut: command not found
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git hist
+* 9822896 (HEAD -> master) updating readme again
+* 8f33680 Updating License file
+* 2a13d64 (tag: v1.0) readme new
+* e6b391d updating ignore to exclude merge file
+*   26c79fa Resolving conflict
+|\
+| * 2cc78e9 (very-bad) very bad update
+* | d35d11c Causing issue again
+|/
+* ffd879d  adding udpates from branch
+* ad736d8 Adding ignore file
+* 631c335 remove myfile.txt
+* 96d506c rename and add
+* 389b9ba deleting demo file
+* e8c25db Renaming example to demo
+* dff3277 adding example file
+* 970b9d2 Updating README
+* 4a728a2 Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git reset 2a13d64
+Unstaged changes after reset:
+M       LICENSE.txt
+M       README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git reset 2a13d64 --soft
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git hist
+* 2a13d64 (HEAD -> master, tag: v1.0) readme new
+* e6b391d updating ignore to exclude merge file
+*   26c79fa Resolving conflict
+|\
+| * 2cc78e9 (very-bad) very bad update
+* | d35d11c Causing issue again
+|/
+* ffd879d  adding udpates from branch
+* ad736d8 Adding ignore file
+* 631c335 remove myfile.txt
+* 96d506c rename and add
+* 389b9ba deleting demo file
+* e8c25db Renaming example to demo
+* dff3277 adding example file
+* 970b9d2 Updating README
+* 4a728a2 Adding both files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   LICENSE.txt
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add a .
+fatal: pathspec 'a' did not match any files
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git add .
+warning: in the working copy of 'LICENSE.txt', CRLF will be replaced by LF the next time Git touches it
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   LICENSE.txt
+        modified:   README.md
+
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git commit -m "Final commit"
+[master 7c6c45c] Final commit
+ 2 files changed, 8 insertions(+), 1 deletion(-)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git remote -v
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$
+^C
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$
+^C
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git remote add origin https://github.com/tusharkashyap07/demo.git
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git remote -v
+origin  https://github.com/tusharkashyap07/demo.git (fetch)
+origin  https://github.com/tusharkashyap07/demo.git (push)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ git push -u origin master --tags
+Enumerating objects: 44, done.
+Counting objects: 100% (44/44), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (36/36), done.
+Writing objects: 100% (44/44), 3.91 KiB | 1000.00 KiB/s, done.
+Total 44 (delta 13), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (13/13), done.
+To https://github.com/tusharkashyap07/demo.git
+ * [new branch]      master -> master
+ * [new tag]         v1.0 -> v1.0
+branch 'master' set up to track 'origin/master'.
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ pwd
+/d/demo
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ ls .ssh
+ls: cannot access '.ssh': No such file or directory
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ mkdir .ssh
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo (master)
+$ cd .ssh/
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo/.ssh (master)
+$ ssh-keygen -t rsa -C "tushar.kashyap@team.kritikalvision.ai"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Tushar.Kayshap/.ssh/id_rsa):
+Created directory '/c/Users/Tushar.Kayshap/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Tushar.Kayshap/.ssh/id_rsa
+Your public key has been saved in /c/Users/Tushar.Kayshap/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:dj1Ze11uq9UR8r9UtBWpfDVGe+vW+dqtuwEDFhyxjuQ tushar.kashyap@team.kritikalvision.ai
+The key's randomart image is:
++---[RSA 3072]----+
+|         .+o  .o.|
+|          .o   ++|
+|        . + ..+oB|
+|       o + o =o=O|
+|        E o * o=*|
+|       . .   +.oO|
+|              .B+|
+|              =o+|
+|             .=*+|
++----[SHA256]-----+
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo/.ssh (master)
+$ ls -al
+total 4
+drwxr-xr-x 1 Tushar.Kayshap 197121 0 Aug 26 23:21 ./
+drwxr-xr-x 1 Tushar.Kayshap 197121 0 Aug 26 23:21 ../
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/demo/.ssh (master)
+$ cd d:
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d
+$ ls
+'$MfeDeepRem'/  '$RECYCLE.BIN'/   Courses/   React/   Softwares/  'System Volume Information'/   demo/
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d
+$ mkdir projects
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d
+$ cd projects
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects
+$ git clone https://github.com/tusharkashyap07/my-website.git
+Cloning into 'my-website'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (7/7), 5.86 KiB | 5.86 MiB/s, done.
+Resolving deltas: 100% (1/1), done.
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects
+$ ls -l
+total 0
+drwxr-xr-x 1 Tushar.Kayshap 197121 0 Aug 26 23:39 my-website/
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects
+$ cd my-website/
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/my-website (main)
+$ ls -l
+total 13
+-rw-r--r-- 1 Tushar.Kayshap 197121 11357 Aug 26 23:39 LICENSE
+-rw-r--r-- 1 Tushar.Kayshap 197121    13 Aug 26 23:39 README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/my-website (main)
+$ git remote -v
+origin  https://github.com/tusharkashyap07/my-website.git (fetch)
+origin  https://github.com/tusharkashyap07/my-website.git (push)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/my-website (main)
+$ cd..
+bash: cd..: command not found
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/my-website (main)
+$ cd ..
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects
+$ ls -l
+total 0
+drwxr-xr-x 1 Tushar.Kayshap 197121 0 Aug 26 23:39 my-website/
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects
+$ rm -rf my-website
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects
+$ ls -l
+total 0
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects
+$ git clone https://github.com/tusharkashyap07/my-website.git website
+Cloning into 'website'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (7/7), 5.86 KiB | 5.86 MiB/s, done.
+Resolving deltas: 100% (1/1), done.
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects
+$ ls -l
+total 0
+drwxr-xr-x 1 Tushar.Kayshap 197121 0 Aug 26 23:48 website/
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects
+$ cd website/
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$ ls -al
+total 21
+drwxr-xr-x 1 Tushar.Kayshap 197121     0 Aug 26 23:48 ./
+drwxr-xr-x 1 Tushar.Kayshap 197121     0 Aug 26 23:48 ../
+drwxr-xr-x 1 Tushar.Kayshap 197121     0 Aug 26 23:48 .git/
+-rw-r--r-- 1 Tushar.Kayshap 197121  1610 Aug 26 23:48 .gitignore
+-rw-r--r-- 1 Tushar.Kayshap 197121 11357 Aug 26 23:48 LICENSE
+-rw-r--r-- 1 Tushar.Kayshap 197121    13 Aug 26 23:48 README.md
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$ cp -R ~/Downloads/initializr/* .
+cp: cannot stat '/c/Users/Tushar.Kayshap/Downloads/initializr/*': No such file or directory
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$ cp -R ~/Downloads/initializr/* .
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$ ls -l
+total 42
+-rw-r--r-- 1 Tushar.Kayshap 197121 11357 Aug 26 23:48 LICENSE
+-rw-r--r-- 1 Tushar.Kayshap 197121    13 Aug 26 23:48 README.md
+-rw-r--r-- 1 Tushar.Kayshap 197121  3959 Aug 26 23:51 apple-touch-icon.png
+-rw-r--r-- 1 Tushar.Kayshap 197121   416 Aug 26 23:51 browserconfig.xml
+drwxr-xr-x 1 Tushar.Kayshap 197121     0 Aug 26 23:51 css/
+-rw-r--r-- 1 Tushar.Kayshap 197121   766 Aug 26 23:51 favicon.ico
+drwxr-xr-x 1 Tushar.Kayshap 197121     0 Aug 26 23:51 fonts/
+drwxr-xr-x 1 Tushar.Kayshap 197121     0 Aug 26 23:51 img/
+-rw-r--r-- 1 Tushar.Kayshap 197121  5283 Aug 26 23:51 index.html
+drwxr-xr-x 1 Tushar.Kayshap 197121     0 Aug 26 23:51 js/
+-rw-r--r-- 1 Tushar.Kayshap 197121  1854 Aug 26 23:51 tile-wide.png
+-rw-r--r-- 1 Tushar.Kayshap 197121  3482 Aug 26 23:51 tile.png
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        apple-touch-icon.png
+        browserconfig.xml
+        css/
+        favicon.ico
+        fonts/
+        index.html
+        js/
+        tile-wide.png
+        tile.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$ git add .
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   apple-touch-icon.png
+        new file:   browserconfig.xml
+        new file:   css/bootstrap-theme.css
+        new file:   css/bootstrap-theme.css.map
+        new file:   css/bootstrap-theme.min.css
+        new file:   css/bootstrap.css
+        new file:   css/bootstrap.css.map
+        new file:   css/bootstrap.min.css
+        new file:   css/main.css
+        new file:   favicon.ico
+        new file:   fonts/glyphicons-halflings-regular.eot
+        new file:   fonts/glyphicons-halflings-regular.svg
+        new file:   fonts/glyphicons-halflings-regular.ttf
+        new file:   fonts/glyphicons-halflings-regular.woff
+        new file:   index.html
+        new file:   js/main.js
+        new file:   js/vendor/bootstrap.js
+        new file:   js/vendor/bootstrap.min.js
+        new file:   js/vendor/jquery-1.11.2.min.js
+        new file:   js/vendor/modernizr-2.8.3-respond-1.4.2.min.js
+        new file:   js/vendor/npm.js
+        new file:   tile-wide.png
+        new file:   tile.png
+
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$ git commit -m "Adding initial website files"
+[main a58cf8e] Adding initial website files
+ 23 files changed, 9539 insertions(+)
+ create mode 100644 apple-touch-icon.png
+ create mode 100644 browserconfig.xml
+ create mode 100644 css/bootstrap-theme.css
+ create mode 100644 css/bootstrap-theme.css.map
+ create mode 100644 css/bootstrap-theme.min.css
+ create mode 100644 css/bootstrap.css
+ create mode 100644 css/bootstrap.css.map
+ create mode 100644 css/bootstrap.min.css
+ create mode 100644 css/main.css
+ create mode 100644 favicon.ico
+ create mode 100644 fonts/glyphicons-halflings-regular.eot
+ create mode 100644 fonts/glyphicons-halflings-regular.svg
+ create mode 100644 fonts/glyphicons-halflings-regular.ttf
+ create mode 100644 fonts/glyphicons-halflings-regular.woff
+ create mode 100644 index.html
+ create mode 100644 js/main.js
+ create mode 100644 js/vendor/bootstrap.js
+ create mode 100644 js/vendor/bootstrap.min.js
+ create mode 100644 js/vendor/jquery-1.11.2.min.js
+ create mode 100644 js/vendor/modernizr-2.8.3-respond-1.4.2.min.js
+ create mode 100644 js/vendor/npm.js
+ create mode 100644 tile-wide.png
+ create mode 100644 tile.png
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/tusharkashyap07/my-website.git'
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/tusharkashyap07/my-website.git'
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$ git push origin main
+Enumerating objects: 30, done.
+Counting objects: 100% (30/30), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (28/28), done.
+Writing objects: 100% (29/29), 273.94 KiB | 7.61 MiB/s, done.
+Total 29 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/tusharkashyap07/my-website.git
+   34430a8..a58cf8e  main -> main
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$ git push
+Everything up-to-date
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$ git version
+git version 2.37.2.windows.2
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$ git config --global push.default
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$ git config --global push.default simple
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$ git push
+Everything up-to-date
+
+Tushar.Kayshap@KSPL0302-L MINGW64 /d/projects/website (main)
+$
